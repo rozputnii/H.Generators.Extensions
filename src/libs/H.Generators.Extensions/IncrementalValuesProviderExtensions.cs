@@ -1,9 +1,11 @@
 ﻿using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.Diagnostics;
+using NET.Generators.Extensions.Models;
+
 // ReSharper disable MemberCanBePrivate.Global
 // ReSharper disable UnusedMember.Global
 
-namespace H.Generators.Extensions;
+namespace NET.Generators.Extensions;
 
 /// <summary>
 /// 

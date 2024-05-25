@@ -6,7 +6,7 @@ using System.Collections;
 using System.Collections.Immutable;
 using System.Runtime.CompilerServices;
 
-namespace H.Generators.Extensions;
+namespace NET.Generators.Extensions;
 
 /// <summary>
 /// Extensions for <see cref="EquatableArray{T}"/>.

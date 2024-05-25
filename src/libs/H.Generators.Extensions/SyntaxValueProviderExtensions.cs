@@ -1,10 +1,11 @@
-using System.Collections.Immutable;
+﻿using System.Collections.Immutable;
 using System.Reflection;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Diagnostics;
+using NET.Generators.Extensions.Models;
 
-namespace H.Generators.Extensions;
+namespace NET.Generators.Extensions;
 
 /// <summary>
 /// 

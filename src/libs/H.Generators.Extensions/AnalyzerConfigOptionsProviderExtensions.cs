@@ -1,8 +1,9 @@
 ﻿using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.Diagnostics;
+
 // ReSharper disable MemberCanBePrivate.Global
 
-namespace H.Generators.Extensions;
+namespace NET.Generators.Extensions;
 
 /// <summary>
 /// 
@@ -134,7 +135,7 @@ public static class AnalyzerConfigOptionsProviderExtensions
     }
 
     /// <summary>
-    /// Try recognize the framework using MSBuild properties and constants.
+    /// Try to recognize the framework using MSBuild properties and constants.
     /// </summary>
     /// <param name="provider"></param>
     /// <returns></returns>
@@ -160,7 +161,9 @@ public static class AnalyzerConfigOptionsProviderExtensions
             (_, _, true, _, _, _, _) => Framework.WinUi,
             (_, true, _, _, _, _, _) => Framework.Uwp,
             (true, _, _, _, _, _, _) => Framework.Wpf,
-            _ => Framework.None,
+            
+            // Assume WPF is main used
+            _ => Framework.Wpf,
         };
     }
 

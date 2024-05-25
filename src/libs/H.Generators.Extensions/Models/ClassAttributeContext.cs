@@ -1,8 +1,8 @@
-using System.Collections.Immutable;
+﻿using System.Collections.Immutable;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-namespace H.Generators.Extensions;
+namespace NET.Generators.Extensions.Models;
 
 /// <summary>
 /// 

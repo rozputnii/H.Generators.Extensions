@@ -1,7 +1,7 @@
 ﻿using System.Collections.Immutable;
 using Microsoft.CodeAnalysis;
 
-namespace H.Generators.Extensions;
+namespace NET.Generators.Extensions.Models;
 
 /// <summary>
 /// 

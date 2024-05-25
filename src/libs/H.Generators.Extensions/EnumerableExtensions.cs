@@ -1,4 +1,4 @@
-﻿namespace H.Generators.Extensions;
+﻿namespace NET.Generators.Extensions;
 
 /// <summary>
 /// 

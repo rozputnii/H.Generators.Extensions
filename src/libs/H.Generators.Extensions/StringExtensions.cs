@@ -1,7 +1,8 @@
 ﻿using System.Globalization;
+
 // ReSharper disable MemberCanBePrivate.Global
 
-namespace H.Generators.Extensions;
+namespace NET.Generators.Extensions;
 
 /// <summary>
 /// 
